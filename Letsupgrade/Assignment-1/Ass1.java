@@ -19,3 +19,10 @@ class Test{
         obj.display();
     }
 }
+
+/**
+ * ---output---
+ *                   Student Name:Harsha
+                     Student Roll:100
+                     Student marks:78.0
+ */

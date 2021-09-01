@@ -12,3 +12,10 @@ class Add{
 
     }
 }
+
+/**
+ * ------output--------
+ *              Enter value of A:25
+                Enter value of B:35
+                Addition of two numbers is:60
+ */
