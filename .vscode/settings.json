@@ -1,8 +1,11 @@
 {
     "cSpell.words": [
         "datatypes",
+        "decr",
+        "ifelse",
         "indentifier",
         "Microsystem",
         "strictfp"
-    ]
+    ],
+    "java.dependency.packagePresentation": "hierarchical"
 }

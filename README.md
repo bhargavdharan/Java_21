@@ -53,6 +53,10 @@ First.java(Javac)(source code) ==> First.class(JVM)(byte code) ==> output
 4. input & output
 5. Control flow
 6. indentifier
+7. Operators
+8. Java Methods
+9. Java Array
+10. Java Strings
 
 ## DataTypes
 
@@ -135,11 +139,130 @@ syntax: System.out.print(" ");
 * Conditional Statements.
 
     1. if statement
-        -- It is used when we want to test a single condition
-    2. if-else statement
+        -- It is used when we want to test a single condition.
+        syntax:
+
+        ```syntax
+        if(condition){
+            //statements
+        }
+        ```
+
+    2. if-else statement 
+        -- it is used when we want to execute two statements for a single condition.
+        syntax:
+
+        ```syntax
+        if(condition){
+            //statement1;
+        }else{
+            //statement2;
+        }
+        ```
+
     3. else-if statement
+        -- it is used when we have only one if block, multiple else-if blocks and at the last else block
+
+        syntax:
+
+        ```syntax
+        if(condition1){
+            //statement1
+        }else-if(condition2){
+            //statement2
+        }else{
+            //statement2
+        }
+        ```
+
     4. nested if statement
+        -- whenever, we define if-else block inside another if-else block called "nested if-else"
+
+        syntax:
+
+        ```syntax
+        if(condition1){
+            if(condition2){
+                //statement1
+            }
+            else{
+                //statement2
+            }
+        }else{
+            if(condition3){
+                //statement3
+            }else{
+                //statement4
+            }
+        }
+        ```
+
     5. switch case statement
+         switch statement: switch is a multiple choice decision making selection statement. it is used when we want to select only one case out of multiple cases
+
+       ```syntax
+            switch(exp)
+            {
+                case 1: statement1;
+                        break;
+                case 2: statement2;
+                        break;
+
+                case n: statement n;
+                        break;
+
+                default: statement;
+            }
+        ```
 
 * Looping Statements.
+    0. Loop
+        -- Whenever we want to repeat certain statements several times then,we should write those statements inside loop body.
+
+    1. for-loop
+        syntax:
+
+        ```syntax
+        for(initialization; condition; incr/decr)
+        {
+            //code
+        }
+        ```
+
+    2. while-loop
+        syntax:
+
+        ```syntax
+        while(condition)
+        {
+            //code
+        }
+        ```
+
+    3. do-while loop
+        syntax:
+
+        ```syntax
+        do
+        {
+            //statement
+        }
+        while(condition)
+        ```
+
+    4. for-each
+        syntax:
+
+        ```syntax
+        for(datatype var1:var2){
+            //statement
+        }
+        ```
+
 * Transfer Statements.
+
+1. break -- it stops the execution of program
+2. continue -- it skips the execution of program
+3. return
+
+## Operators
