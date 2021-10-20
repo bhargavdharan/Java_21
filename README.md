@@ -148,7 +148,7 @@ syntax: System.out.print(" ");
         }
         ```
 
-    2. if-else statement 
+    2. if-else statement
         -- it is used when we want to execute two statements for a single condition.
         syntax:
 
@@ -266,3 +266,204 @@ syntax: System.out.print(" ");
 3. return
 
 ## Operators
+
+* what is operator ?
+
+operator is a symbol that is used to perform operations according to user requirement.
+
+Types:
+
+1. Arithematic operators (+,-,x./,%)
+2. Relational operators (>,<,>=,<=,!=)
+3. Logical operators (&&,||,!)
+4. increment/decrement (preInc/postInc(++a/a++)) / (preDec/postDec(--a/a--))
+5. Assignment operator (=.+=)
+6. Ternary operator (?:)(a>b>c)
+
+## Method
+
+* What is method ?
+
+Method is a group/block of code which take input from the user, processed it, and gives output.
+
+**Note** 1. Method runs only when it is called
+         2. Code reusability
+
+* Types of Methods
+
+1. pre-defined ( print();, sort();, nextInt();, sleep();, concat(); )
+2. user-defined ( add(), sum(), learn())
+
+syntax:
+
+```syntax
+return-type method-name(--)
+{
+    //statement;
+}
+```
+
+## Arrays
+
+* What is Arrays ?
+
+Arrays is an object in java, which contains similar type of data in a contigous memory locations.
+
+syntax:
+
+1. ```data-type[] var-name```
+
+2. ```data-type var-name[] = {10,20,30}```
+
+3. ```int a[] = new int[5]```
+
+* Types of Arrays
+
+1. 1D array
+2. 2D array
+
+## Strings
+
+* What is Strings ?
+
+1. String is a pre-defined class in java but we can also use as a datatype.
+
+2. Strings are the sequence of character and its index starts from 0.
+
+Syntax:
+
+1. ```String str = new String("DHARAN")```
+
+2. ```String str = "DHARAN"```
+
+* Why Strings are immutable in java ?
+
+... immutable - can't change
+... bcoz duplicate values cannot copy to original values.
+
+## Java OOPs
+
+* **Class & Object**
+
+* What is class & object ?
+
+.. class is a group of elements having common properties and behaviours
+.. object is a real-world entity
+
+```class
+class person{
+   String name;
+   int age;
+   int phoneNo;
+}
+```
+
+```object
+person P = new person();
+```
+
+* Types of classes:
+
+1. user-defined (A,Person,Animal)
+2. pre-defined (System,Strings,Scanner)
+
+* **Access Specifier**
+
+* **Constructors:**
+
+* What is constructor ?
+
+constructor is a special type of method whose name is same as class
+
+Note:
+
+1. The main purpose of constructor is initialize the object
+2. Every java class has a constructor
+3. A constructor is automatically called at the time of object creation.
+4. A constructor never contain any return-type including void
+
+syntax:
+
+```constructor
+class class-name
+{
+    class-name()
+    {
+
+    }
+}
+```
+
+* Types of constructor:
+
+1. default
+
+2. private
+
+3. copy
+
+4. parameterized
+
+* ***Default constructor***:
+
+* what is default constructor ?
+
+A constructor which does not have any parameters is called default constructor.
+
+syntax:
+
+```syntax
+class A
+{
+    A()
+    {
+
+    }
+}
+```
+
+* ***Parameterized constructor***
+
+* what is parameterized constructor ?
+
+A constructor through which we can pass one or more parameters is called parameterized constructor
+
+syntax:
+
+```syntax
+class A
+{
+    A(int x, int y)
+    {
+        
+    }
+}
+```
+
+* **Super Keyword**
+
+* **this Keyword**
+
+* **Instance block**
+
+* **Static block**
+
+* **Encapsulation**
+
+* **Abstraction**
+
+1. abstract class
+
+2. interface
+
+* **Inheritance**
+
+* **polymorphism**
+
+* **Exception Handling**
+
+* **Multi-Threading**
+
+* **Packages**
+
+* **Collections**
